@@ -2,38 +2,17 @@ import java.util.Arrays;
 
 public class Solution {
     public static void main(String[] args) {
-        int[] array = {123, 7, -14, 67, 16, 98, 75, 576};
-        System.out.println("В массиве: ");
-        printArray(array);
-        System.out.println("Минимальное число: " + getMinValue(array));
-        System.out.println("Максимальное число: " + getMaxValue(array));
-
+        int[] array = {15,64,9,51,42};
+        printSqrt(array);
     }
 
-    public static int getMaxValue(int[] array) {
-        int max = Integer.MIN_VALUE;
-        for (int value : array) {
-            if (value > max) {
-                max = value;
-            }
+    public static void printSqrt(int[] array) {
+        String elementSqrt = "Корень квадратный для числа ";
+        for (int i = 0; i < array.length; i++) {
+            int element = array[i];
+            double elementSqrt1 = Math.sqrt(element);
+            System.out.println(elementSqrt + element + " равен " + elementSqrt1);
         }
-        return max;
-    }
-
-    public static int getMinValue(int[] array) {
-        int min = Integer.MAX_VALUE;
-        for (int value : array) {
-            if (value < min) {
-                min = value;
-            }
-        }
-        return min;
-    }
-
-    public static void printArray(int[] array) {
-        for (int i : array) {
-            System.out.print(i + " ");
-        }
-        System.out.println();
     }
 }
+
