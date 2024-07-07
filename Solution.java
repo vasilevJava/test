@@ -1,18 +1,13 @@
 import java.util.Arrays;
 
 public class Solution {
-    public static void main(String[] args) {
-        int[] array = {15,64,9,51,42};
-        printSqrt(array);
-    }
-
-    public static void printSqrt(int[] array) {
-        String elementSqrt = "Корень квадратный для числа ";
-        for (int i = 0; i < array.length; i++) {
-            int element = array[i];
-            double elementSqrt1 = Math.sqrt(element);
-            System.out.println(elementSqrt + element + " равен " + elementSqrt1);
-        }
-    }
+    byte b = 0;
+    short s = 1;
+    int i = 2;
+    long l = 3;
+    float f = 4;
+    double d = 5;
+    boolean b = fasle;
+    chat c = 7;//напишите тут ваш код
 }
 
