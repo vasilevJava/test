@@ -1,13 +1,9 @@
 import java.util.Arrays;
 
 public class Solution {
-    byte b;
-    short s;
-    int i;
-    long l;
-    float f;
-    double d;
-    boolean g;
-    chat c;//напишите тут ваш код
+    public byte a = Byte.MAX_VALUE;
+    public short b = Short.MAX_VALUE;
+    public int c = Integer.MAX_VALUE;
+    public long d = Long.MAX_VALUE;
 }
 
